@@ -15,3 +15,24 @@ h3. Notes
 
 [1] Every decent text editor should allow you to change your line feed and tab settings, as well as what you want your defaults for these two settings to be.
 [2] Patches can also be sent in to the public "developers' mailing list":http://lists.textpattern.com/mailman/listinfo/txp-dev.
+
+<hr />
+
+h1. "Widows and no_widow":http://textpattern.com/faq/306/widows-and-no_widow
+QUESTION: Why does Textpattern insert a non-breaking space (@&amp;#160;@) between the last two words of my article titles?
+
+"sIFR":http://wiki.novemberborn.net/sifr won't work properly on my article titles.
+
+ANSWER:
+
+h2. Background
+
+For those who don't know, in typesetting, a widow is a single word on a line by itself at the end of a paragraph and is considered bad style.
+
+The solution is to insert a non-breaking space between the last two words of your headline.
+
+ShaunInman.com: "Widon't":http://www.shauninman.com/archive/2006/08/22/widont_wordpress_plugin
+
+h2. Widow handling in Textpattern
+
+Textpattern includes such a feature in the core to deal with widows. There is a preference, &quot;Prevent widowed words in article titles?&quot; and several tags, such as @recent_articles@, make use of this preference as the default value for the attribute, @no_widow@.
