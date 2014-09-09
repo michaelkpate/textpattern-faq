@@ -90,3 +90,9 @@ If you want feed aggregators and other tools to be able to autodetect your feeds
 
 bc.. <txp:feed_link format="link" flavor="rss" />
 <txp:feed_link format="link" flavor="atom" />
+
+<hr />
+
+h3. "Reporting Security Issues":http://textpattern.com/faq/278/reporting-security-issues
+
+See "security":http://textpattern.com/security.
