@@ -1,4 +1,5 @@
-textpattern-faq
-===============
+Textpattern CMS Frequently Asked Questions
+==========================================
 
-Textpattern CMS frequently asked questions
+To do:
+* Import existing FAQs
